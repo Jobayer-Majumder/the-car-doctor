@@ -16,9 +16,9 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
                             <Link className="nav-link" to="/home">Home</Link>
-                            <Link className="nav-link" href="/home">About Us</Link>
+                            <Link className="nav-link" to="/home">About Us</Link>
                             <Link className="nav-link" to="/admin">Admin</Link>
-                            <Link className="nav-link" href="/home">Contact</Link>
+                            <Link className="nav-link" to="/home">Contact</Link>
                             {
                                 loggedInUser.email ?  
                                 <button className="btn btn-brand rounded-pill">{loggedInUser.displayName}</button>

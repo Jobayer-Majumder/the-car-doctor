@@ -8,7 +8,7 @@ const ShowManageService = ({service}) => {
     const { title, price, _id} = service;
 
     const handleDelete = () => {
-        fetch(`http://localhost:5000/deleteService/${_id}`, {
+        fetch(`https://radiant-woodland-42613.herokuapp.com/deleteService/${_id}`, {
             method: 'DELETE',
         })
         .then(res => res.json())

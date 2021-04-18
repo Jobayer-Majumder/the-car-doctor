@@ -16,7 +16,7 @@ const AddService = () => {
         serviceData.append('price', data.price)
         serviceData.append('img', imgUrl.display_url)
 
-        fetch(`http://localhost:5000/addService`, {
+        fetch(`https://radiant-woodland-42613.herokuapp.com/addService`, {
             method: 'POST',
             body: serviceData
         })

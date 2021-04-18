@@ -25,7 +25,7 @@ const CheckOutForm = ({ service }) => {
             status: 'pending'
         };
 
-        fetch(`http://localhost:5000/addOrder`, {
+        fetch(`https://radiant-woodland-42613.herokuapp.com/addOrder`, {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(order)

@@ -14,7 +14,7 @@ const Book = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/serviceById/${id}`)
+        fetch(`https://radiant-woodland-42613.herokuapp.com/serviceById/${id}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [id])

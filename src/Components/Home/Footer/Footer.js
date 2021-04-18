@@ -1,20 +1,19 @@
 import React from 'react';
-import footer from '../../../images/download-karen-cook-kr-tourism-footer-design-png-transparent-footer-design-png-1920_509.png'
 import './footer.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const quickLinks = [
-    {name: "Make Appointment" , link: "/emergency"},
-    {name: "About Company" , link: "/checkup"},
-    {name: "Team Member" , link: "/personal-treatment"},
-    {name: "Gallery Filter" , link: "/tooth-extract"},
-    {name: "Latest news" , link: "/checkup"},
+    {name: "Make Appointment" , link: "/"},
+    {name: "About Company" , link: "/"},
+    {name: "Team Member" , link: "/"},
+    {name: "Gallery Filter" , link: "/"},
+    {name: "Latest news" , link: "/"},
 ]
 const contacts = [
-    {name: "support@gmail.com" , link: "/emergency", icon: ''},
-    {name: "255 Main street, New york" , link: "/checkup", icon: ''},
-    {name: "+880 - 12 - 34 - 55 - 99" , link: "/personal-treatment", icon: ''},
+    {name: "support@gmail.com" , link: "/", icon: ''},
+    {name: "255 Main street, New york" , link: "/", icon: ''},
+    {name: "+880 - 12 - 34 - 55 - 99" , link: "/", icon: ''},
     
 ]
 const icons = [
@@ -24,11 +23,11 @@ const icons = [
     <FaInstagram />
 ];
 const services = [
-    {name: "Emergency Dental Care" , link: "/emergency"},
-    {name: "Check Up" , link: "/checkup"},
-    {name: "Treatment of Personal Diseases" , link: "/personal-treatment"},
-    {name: "Tooth Extraction" , link: "/tooth-extract"},
-    {name: "Check Up" , link: "/checkup"},
+    {name: "Emergency car service" , link: "/"},
+    {name: "Check Up" , link: "/"},
+    {name: "Wheel Changing" , link: "/"},
+    {name: "Engine Repair" , link: "/"},
+    {name: "Tire Changing" , link: "/"},
     
 ];
 

@@ -17,7 +17,7 @@ const Admin = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/findAdmin?email=${loggedInUser.email}`)
+        fetch(`https://radiant-woodland-42613.herokuapp.com/findAdmin?email=${loggedInUser.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.email))
     }, [loggedInUser.email])

@@ -9,7 +9,7 @@ const BookingList = () => {
     const [orders, setOrders] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/getBookings?email=${loggedInUser.email}`)
+        fetch(`https://radiant-woodland-42613.herokuapp.com/getBookings?email=${loggedInUser.email}`)
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [loggedInUser.email]);

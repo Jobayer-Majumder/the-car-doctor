@@ -15,7 +15,7 @@ const Review = () => {
         reviewData.append('description', data.description)
         reviewData.append('img', imgUrl.display_url)
 
-        fetch(`http://localhost:5000/addReview`, {
+        fetch(`https://radiant-woodland-42613.herokuapp.com/addReview`, {
             method: 'POST',
             body: reviewData
         })
